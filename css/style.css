@@ -1,0 +1,159 @@
+:root
+{
+    --White:#fff;
+}
+.background
+{
+    background:url(../images/flower.jpg) no-repeat  ;
+    background-position: center center;
+    background-size: cover;
+    height: 625px;
+    opacity: 0.832;
+}
+.box-hello
+{
+    height: 584px;
+    width: 34%;
+    position: absolute;
+    top: 9px;
+    left: 195px;
+    background-image: url(../images/flower.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.box-hello h1
+{
+    color: var(--White);
+    font-size: 88px;
+    padding: 50px;
+    padding-bottom: 0;
+}
+.box-hello h4
+{
+    color: var(--White);
+    padding-left: 25px;
+    padding-top: 0;
+}
+.box-hello span
+{
+    color: var(--White);
+    padding-left: 25px;
+}
+.box-hello .icon1 
+{
+    border-radius: 50px;
+    background-color: #2A68BB;
+    width: 77px;
+    height: 35px;
+    position: absolute;
+    bottom: 57px;
+    left: 43px;
+}
+.fa-facebook-f
+{
+    font-weight: 400;
+    padding-left: 32px;
+    color: var(--White);
+    font-size: 16px;
+    padding-top: 8px;
+}
+.box-hello .icon2
+{
+    border-radius: 50px;
+    background-color: #00C2F0;
+    width: 49%;
+    height: 35px;
+    position: absolute;
+    bottom: 57px;
+    right: 43px;
+}
+.fa-twitter
+{
+    color: var(--White);
+    padding-left: 23px;
+    padding-top: 6px;
+}
+/* end box hello  */
+/* start style for box login */
+.box-login
+{
+    height: 585px;
+    width: 36%;
+    position: absolute;
+    right: 215px;
+    top: 9px;
+    background-color: var(--White);
+}
+.box-login h2
+{
+    padding-left: 55px;
+    padding-top: 50px;
+    font-size: 36px;
+    padding-bottom: 0;
+}
+.box-login h5
+{  
+    color: #878b8e;
+    padding-left: 57px;
+    padding-top: 0;
+}
+.box-login input[type=text]
+{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid;
+    margin-left: 54px;
+    width: 355px;
+    padding-bottom: 5px;
+}
+.box-login input[type=password]
+{
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid;
+    margin-left: 54px;
+    width: 355px;
+    padding-bottom: 7px;
+}
+.box-login .button
+{
+    position: absolute;
+    left: 20px;
+    bottom: 237px;
+    margin-left: 40px;
+}
+.box-login label
+{
+    position: absolute;
+    left: 82px;
+    bottom: 233px;
+    font-size: 16px;
+}
+.box-login .effect-p
+{
+    position: absolute;
+    right: 77px;
+    top: 320px;
+    color: #878b8e;
+    font-size: 17px;
+}
+.box-login input[type=submit]
+{
+    border-radius: 50px;
+    width: 120px;
+    height: 45px;
+    position: absolute;
+    right: 90px;
+    bottom: 150px;
+    box-shadow: 5px 0.5px 2px 3px #d8abed;
+    background-color: #5c19b3;
+    color: #fff;
+    border: none;
+}
+.box-login .styly-submit input[type=submit]:hover
+{
+    background-color: grey;
+    cursor: pointer;
+    box-shadow: 5px 0.5px 2px 3px grey;
+}
